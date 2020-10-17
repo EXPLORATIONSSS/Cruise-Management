@@ -1,8 +1,8 @@
 package com.vikrant.shiptype;
 
 public class Expedition implements Ship/*Interface implementation*/ {
-	double weight;
-	int numofpass;
+	double weight;//Weight attribute to determine the docking fee
+	int numofpass;//Number of passengers to calculate the total cost
 	public Expedition(double weight,int numofpass)
 	{
 		this.weight=weight;
